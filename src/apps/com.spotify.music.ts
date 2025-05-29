@@ -10,11 +10,13 @@ export default defineGkdApp({
       snapshotUrls: [
         'https://i.gkd.li/i/20098171',
         'https://i.gkd.li/i/20098433',
-        'https://i.gkd.li/i/20098919'
+        'https://i.gkd.li/i/20098919',
       ],
       rules: [
         {
-          matches: ['@Button[text="tertiaryCtaDismiss"] <<n [vid="jit_banner_view_tag"]'],
+          matches: [
+            '@Button[text="tertiaryCtaDismiss"] <<n [vid="jit_banner_view_tag"]',
+          ],
           activityIds: ['com.spotify.music.SpotifyMainActivity'],
         },
       ],
@@ -26,7 +28,9 @@ export default defineGkdApp({
       snapshotUrls: ['https://i.gkd.li/i/20098331'],
       rules: [
         {
-          matches: ['@Button <2 View <4 View < View < ViewGroup < [id="android:id/content"]'],
+          matches: [
+            '@Button <2 View <4 View < View < ViewGroup < [id="android:id/content"]',
+          ],
           activityIds: ['com.spotify.apprater.appraterdialog.AppRaterActivity'],
         },
       ],
