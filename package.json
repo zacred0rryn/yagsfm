@@ -1,6 +1,6 @@
 {
-  "name": "@gkd-kit/subscription-template",
-  "version": "0.0.0",
+  "name": "@zacred0rryn/yagsfm",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "postinstall": "simple-git-hooks",
